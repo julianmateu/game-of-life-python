@@ -1,6 +1,8 @@
-# Hello Python
+# Conway's Game of Life in Python
 
-A sample application in python using [GNU Make](https://www.gnu.org/software/make/), it can be configured to use
+A simple application in python that generates an animation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). See an example in [`game_of_life.mp4`](./game_of_life.mp4)
+
+Based on the [`hello-python` repo](https://github.com/julianmateu/hello-python), which creates a basic python application using [GNU Make](https://www.gnu.org/software/make/), it can be configured to use
 [pipenv](https://pypi.org/project/pipenv/) or [venv](https://docs.python.org/3/library/venv.html). It also uses
 [black](https://pypi.org/project/black/), [pytest](https://pypi.org/project/pytest/),
 [pytest-cov](https://pypi.org/project/pytest-cov/), [mypy](https://pypi.org/project/mypy/),

@@ -2,7 +2,7 @@ ifneq (,$(wildcard ./.env))
     include .env
     export
 endif
-SRC_DIR=hellopython
+SRC_DIR=lifegame
 TEST_DIR=tests
 RUN_PIPENV=pipenv run
 ifeq (${USE_PIPENV}, true)
